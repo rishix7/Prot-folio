@@ -35,7 +35,7 @@ document.getElementById('contactForm').addEventListener('submit', async function
   responseMessageElement.classList.remove('error');
 
   try {
-      const response = await fetch('https://localhost:3000/api/contact', { // Send to your backend API endpoint
+      const response = await fetch('https://rishi-50028757716.development.catalystappsail.in/api/contact', { // Send to your backend API endpoint
           method: 'POST',
           headers: {
               'Content-Type': 'application/json'
